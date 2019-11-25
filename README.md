@@ -31,21 +31,9 @@
 <dl>
     <dt>function build()</dt>
     <dd>taking the row network data from geojson file, it converts it to a graph[ nodes and edges]
-nodes being the intersections and edges is the route between those nodes represented each by a pk and required info ,eg. max speed, total distance and 
-the substeps that build up the edge. resulting a graph that has an array of vertices.</dd>
-
+nodes being the intersections and edges is the route between those nodes represented each by a pk and required info ,eg. max speed, total distance and the substeps that build up the edge. resulting a graph that has an array of vertices.</dd>
     <dt>function generateStepCoordinates(coords)</dt>
     <dd> given the row data for the coordinates that represent the edge, it creates an array of object each has x,y proparities.</dd>
-
-    <dt>function calculateDistance(v1, v2)</dt>
-    <dd>given two points it reterns the distance between them in meters..</dd>
-    <dt> function getMultiStepDistance(ss)</dt>
-    <dd>given an array of coordiantes , it returns the total distance.</dd>
-    <dt>function toGeohash</dt>
-    <dd>given a point that is represented by its latitude and longitude, it returns the geohash code that represents this point</dd>
-    <dt>function route(source, destination)</dt>
-    <dd>Given to vertices, it return an aray of the cordinates needed to be followed to reach from start point to end point.</dd>
-     function getLowestCost(Q) : given an array of points it returns the point with the lowest cost
 
  <dt>function drawroute(Route)</dt> <dd>given a route( array of coordinates) it draws a polyline on the map</dd>
  <dt>function setInstructions()</dt>
@@ -54,5 +42,15 @@ the substeps that build up the edge. resulting a graph that has an array of vert
  <dt>function tsp(matrix)</dt>
  <dd>given the distance matrix between nodes, it returns the shortest path to cross all those points 
 .</dd>
+<dt>function calculateDistance(v1, v2</dt>
+    <dd>given two points it reterns the distance between them in meters..</dd>
+    <dt> function getMultiStepDistance(ss)</dt>
+        <dd>given an array of coordiantes , it returns the total distance.</dd>
+            <dt>function toGeohash</dt>
+                <dd>given a point that is represented by its latitude and longitude, it returns the geohash code that represents this point</dd>
+                    <dt>function route(source, destination)</dt>
+                        <dd>Given to vertices, it return an aray of the cordinates needed to be followed to reach from start point to end point.</dd>
+                        <dt> function getLowestCost(Q) </dt>
+                        <dd>given an array of points it returns the point with the lowest cost</dd>
 
 </dl>
