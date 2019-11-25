@@ -13,9 +13,9 @@
 </ul>
 <h3>Built With</h3>
 <ul>
-    <li><a href="https://nodejs.org/en//">NodeJs- Dependency Managemen</a></li>
-    <li><a href="https://www.javascript.com/">Javascript - implementation language</a></li>
-    <li><a href="https://visualstudio.microsoft.com/">Visual studio - The web framework used</a> </li>
+    <li><a href="https://nodejs.org/en//">NodeJs</a>- Dependency Managemen</li>
+    <li><a href="https://www.javascript.com/">Javascript</a> - implementation language</li>
+    <li><a href="https://visualstudio.microsoft.com/">Visual studio</a> - The web framework used </li>
 </ul>
 <hr>
 <h3>Running the test</h3>
