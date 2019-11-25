@@ -11,10 +11,6 @@
     <li>geojson file , eg. look up driving.geojson' file in the directory.</li>
     <li>Live server on visual studio code</li>
 </ul>
-
-<h3>Installing</h3>
-<h3>Running the tests</h3>
-<p>Run the live server of Visual Studio Code</p>
 <h3>Built With</h3>
 <ul>
     <li><a href="https://nodejs.org/en//">NodeJs- Dependency Managemen</a></li>
